@@ -45,7 +45,7 @@ class BankAccount:
         if password == self.__password:
             self._authorized = True
             return "Авторизация успешна"
-        return "❌ Неверный пароль"
+        return " Неверный пароль"
 
     @property
     def full_info(self):
