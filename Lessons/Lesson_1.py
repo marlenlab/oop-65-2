@@ -1,4 +1,4 @@
-from os import name
+
     # Конструктор класса.
 class Hero:
     def __init__(self, name, hp, lvl):

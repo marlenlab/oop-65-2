@@ -15,23 +15,6 @@ class Hero:
 
 kirito= Hero("Kirito", 1, 100)
 
-# Дочерний класс
-class MageHero:
-    pass
-
-    def __init__(self):
-
-
-    def action(self):
-        print(f"Hi i am{self.name} base action")
-
-
-
-
-asuno = Hero("Asuno", 100, 1000)
-
-
-asuno.action()
 
 
 
