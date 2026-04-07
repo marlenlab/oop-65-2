@@ -50,7 +50,7 @@ class BankAccount:
     @property
     def full_info(self):
         if not self._authorized:
-            return "❌ Доступ запрещён"
+            return " Доступ запрещён"
         bonus = self.bonus_for_level()
         info = (
             f"Банк: {self.bank_name}\n"
