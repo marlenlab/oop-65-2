@@ -44,7 +44,7 @@ class BankAccount:
     def login(self, password):
         if password == self.__password:
             self._authorized = True
-            return "✅ Авторизация успешна"
+            return "Авторизация успешна"
         return "❌ Неверный пароль"
 
     @property
